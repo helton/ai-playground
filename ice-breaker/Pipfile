@@ -9,6 +9,7 @@ black = "*"
 openai = "*"
 google-search-results = "*"
 tweepy = "*"
+fastapi = "*"
 
 [dev-packages]
 
