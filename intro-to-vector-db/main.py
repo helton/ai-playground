@@ -11,7 +11,7 @@ import pinecone
 pinecone.init(api_key=os.environ['PINECONE_API_KEY'], environment=os.environ['PINECONE_ENVIRONMENT'])
 
 if __name__ == '__main__':
-    loader = TextLoader('docs/blog.txt', encoding='utf8')
+    loader = TextLoader('data/blog.txt', encoding='utf8')
     document = loader.load()
     print(document)
 

@@ -5,6 +5,9 @@ name = "pypi"
 
 [packages]
 langchain = "*"
+pinecone-client = "*"
+openai = "*"
+tiktoken = "*"
 
 [dev-packages]
 
