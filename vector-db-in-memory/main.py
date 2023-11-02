@@ -6,7 +6,7 @@ from langchain.chains import RetrievalQA
 from langchain.llms import OpenAI
 
 if __name__ == '__main__':
-    pdf_path = "docs/2210.03629.pdf"
+    pdf_path = "data/2210.03629.pdf"
     loader = PyPDFLoader(file_path=pdf_path)
     documents = loader.load()
     text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=30, separator="\n")
